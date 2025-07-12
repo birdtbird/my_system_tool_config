@@ -51,6 +51,7 @@ symbol = "  "
 
 [git_branch]
 symbol = " "
+always_show_remote = true
 
 [git_commit]
 tag_symbol = '  '
@@ -188,3 +189,7 @@ symbol = " "
 
 [gradle]
 symbol = " "
+
+[character]
+success_symbol = '[➜](bold green) '
+error_symbol = '[✗](bold red) '
